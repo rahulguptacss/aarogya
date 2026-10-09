@@ -1,0 +1,311 @@
+{
+  "common": {
+    "Header": {
+      "logo_text": "Aarogya",
+      "logo_subtext": "YOGA & FITNESS",
+      "links": [
+        { "name": "Home", "href": "#" },
+        { "name": "About Us", "href": "#" },
+        { "name": "Yoga Classes", "href": "#" },
+        { "name": "Our Trainers", "href": "#" },
+        { "name": "Pricing / Packages", "href": "#" },
+        { "name": "Gallery", "href": "#" },
+        { "name": "Contact Us", "href": "#" }
+      ],
+      "button_text": "Book a Session",
+      "button_link": "#"
+    },
+    "Footer": {
+      "logo_text": "Aarogya",
+      "logo_subtext": "YOGA & FITNESS",
+      "description": "At Aarogya, we believe in the power of yoga to create a healthier, happier and more balanced life. Join us for expert guidance and community support.",
+      "socials": [
+        { "icon": "Facebook", "href": "#" },
+        { "icon": "Twitter", "href": "#" },
+        { "icon": "Instagram", "href": "#" },
+        { "icon": "Youtube", "href": "#" }
+      ],
+      "quick_links": [
+        { "name": "Home", "href": "#" },
+        { "name": "About Us", "href": "#" },
+        { "name": "Our Services", "href": "#" },
+        { "name": "Our Team", "href": "#" },
+        { "name": "Testimonials", "href": "#" },
+        { "name": "FAQ", "href": "#" },
+        { "name": "Gallery", "href": "#" },
+        { "name": "Contact Us", "href": "#" }
+      ],
+      "our_services": [
+        { "name": "Hatha Yoga", "href": "#" },
+        { "name": "Vinyasa Yoga", "href": "#" },
+        { "name": "Meditation Classes", "href": "#" },
+        { "name": "Prenatal Yoga", "href": "#" },
+        { "name": "Yoga Therapy", "href": "#" },
+        { "name": "Breathing Therapy", "href": "#" },
+        { "name": "Online Yoga Classes", "href": "#" },
+        { "name": "Corporate Yoga", "href": "#" }
+      ],
+      "contact": {
+        "phone": "+91 9123456789",
+        "hours": "Mon - Sun: 6:00 AM - 9:00 PM",
+        "email": "info@aarogya.com",
+        "address": "123 Wellness Street, Sector 12, Noida, Uttar Pradesh, India."
+      },
+      "copyright": "© 2026 Aarogya Yoga & Fitness. All Rights Reserved."
+    }
+  },
+  "categories": {
+    "Yoga": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "metadata": {
+                "title": "Aarogya - Yoga & Fitness"
+              }
+            }
+          },
+          "sections": {
+            "hero": {
+              "subtitle": "BREATHE + FLOW + BALANCE + GROW",
+              "title_line1": "Find Your Inner",
+              "title_line2": "Peace with",
+              "title_highlight": "Yoga",
+              "description": "Join our yoga studio and experience a healthier, calmer and more balanced life through the power of yoga.",
+              "primary_button": {
+                "text": "Book Your Class",
+                "href": "#"
+              },
+              "secondary_button": {
+                "text": "Watch Our Video",
+                "href": "#"
+              },
+              "image": "/hero-image.jpg",
+              "badges": [
+                { "icon": "Lotus", "label": "Expert Trainers" },
+                { "icon": "Users", "label": "All Levels Welcome" },
+                { "icon": "Leaf", "label": "Holistic Wellness" }
+              ]
+            },
+            "about": {
+              "subtitle": "ABOUT US",
+              "title_line1": "Transforming Lives",
+              "title_line2": "Through",
+              "title_highlight": "Yoga and",
+              "title_line3": "Meditation",
+              "description": "Discover inner peace and well-being through yoga. Our practice combines physical movement, mindfulness, and breathing techniques to help you achieve balance, reduce stress, and foster personal growth.",
+              "image": "/img/about.png",
+              "cards": [
+                {
+                  "icon": "Users",
+                  "title": "Community Support and Encouragement",
+                  "description": "Foster a sense of belonging with our supportive community. Share your journey, motivate one another, too."
+                },
+                {
+                  "icon": "Activity",
+                  "title": "Enhanced Physical Flexibility and Strength",
+                  "description": "Foster a sense of belonging with our supportive community. Share your journey, motivate one another, too."
+                }
+              ],
+              "button": {
+                "text": "More About Us",
+                "href": "#"
+              }
+            },
+            "stats": {
+              "items": [
+                { "value": "500+", "label": "Happy Members", "icon": "Users" },
+                { "value": "25+", "label": "Expert Trainers", "icon": "PersonStanding" },
+                { "value": "40+", "label": "Yoga Programs", "icon": "Flower2" },
+                { "value": "10+", "label": "Years Experience", "icon": "Trophy" }
+              ]
+            },
+            "services": {
+              "subtitle": "OUR SERVICES",
+              "title": "Explore our yoga and wellness services designed for all levels from beginner to advanced.",
+              "items": [
+                {
+                  "title": "Hatha Yoga",
+                  "subtitle": "Build strength and balance",
+                  "icon": "Flower2",
+                  "image": "/img/services.png",
+                  "content_title": "Build Strength\nand Inner Balance",
+                  "description": "Hatha yoga is a traditional practice that focuses on physical postures, breathing techniques and meditation. It helps improve flexibility, build strength, reduce stress and bring balance to body and mind.",
+                  "benefits": [
+                    "Increases flexibility",
+                    "Builds core strength",
+                    "Reduces stress and anxiety"
+                  ]
+                },
+                {
+                  "title": "Vinyasa Yoga",
+                  "subtitle": "Flow with your breath",
+                  "icon": "Wind",
+                  "image": "/img/services.png",
+                  "content_title": "Flow with your\nBreath Dynamics",
+                  "description": "Vinyasa yoga is a dynamic practice that synchronizes movement with breathing. It helps improve flexibility, build core strength, and brings a rhythm to your body's natural motion while clearing your mind.",
+                  "benefits": [
+                    "Enhances cardiovascular health",
+                    "Builds muscle endurance",
+                    "Improves mental focus"
+                  ]
+                },
+                {
+                  "title": "Meditation Classes",
+                  "subtitle": "Calm mind, reduce stress",
+                  "icon": "Brain",
+                  "image": "/img/services.png",
+                  "content_title": "Calm your mind\nand Reduce Stress",
+                  "description": "Meditation helps you achieve a mentally clear and emotionally calm and stable state. Regular practice reduces anxiety, enhances self-awareness, and promotes overall emotional well-being.",
+                  "benefits": [
+                    "Reduces anxiety and stress",
+                    "Improves self-awareness",
+                    "Lengthens attention span"
+                  ]
+                },
+                {
+                  "title": "Prenatal Yoga",
+                  "subtitle": "Safe and gentle practice",
+                  "icon": "Baby",
+                  "image": "/img/services.png",
+                  "content_title": "Safe and gentle\nYoga Practice",
+                  "description": "Prenatal yoga is designed specifically for pregnant women. It focuses on gentle stretching, mental centering, and focused breathing to prepare the body for labor and promote maternal health.",
+                  "benefits": [
+                    "Improves sleep quality",
+                    "Reduces lower back pain",
+                    "Prepares body for labor"
+                  ]
+                },
+                {
+                  "title": "Yoga Therapy",
+                  "subtitle": "Heal, strengthen, restore",
+                  "icon": "HeartPulse",
+                  "image": "/img/services.png",
+                  "content_title": "Heal, strengthen\nand Restore",
+                  "description": "Yoga therapy helps address specific health conditions by adapting traditional yoga techniques. It empowers individuals to progress toward improved health and well-being through customized practices.",
+                  "benefits": [
+                    "Alleviates chronic pain",
+                    "Speeds up injury recovery",
+                    "Restores physical mobility"
+                  ]
+                }
+              ]
+            },
+            "team": {
+              "subtitle": "OUR TEAM",
+              "title": "Meet our experienced and certified yoga instructors dedicated to your health and well-being.",
+              "members": [
+                {
+                  "name": "Ananya Sharma",
+                  "role": "Hatha Yoga Trainer",
+                  "description": "Helps build strength, flexibility and inner balance with traditional Hatha yoga practices.",
+                  "image": "/team/1.png",
+                  "socials": [
+                    { "icon": "Facebook", "href": "#" },
+                    { "icon": "Twitter", "href": "#" },
+                    { "icon": "Linkedin", "href": "#" },
+                    { "icon": "Youtube", "href": "#" }
+                  ]
+                },
+                {
+                  "name": "Rohan Mehta",
+                  "role": "Vinyasa Yoga Trainer",
+                  "description": "Guides you through dynamic postures and breathing techniques to build strength and calm mind.",
+                  "image": "/team/2.png",
+                  "socials": [
+                    { "icon": "Facebook", "href": "#" },
+                    { "icon": "Twitter", "href": "#" },
+                    { "icon": "Linkedin", "href": "#" },
+                    { "icon": "Youtube", "href": "#" }
+                  ]
+                },
+                {
+                  "name": "Priya Kapoor",
+                  "role": "Meditation Expert",
+                  "description": "Helps calm your mind, reduce stress and improve focus with guided meditation sessions.",
+                  "image": "/team/3.png",
+                  "socials": [
+                    { "icon": "Facebook", "href": "#" },
+                    { "icon": "Twitter", "href": "#" },
+                    { "icon": "Linkedin", "href": "#" },
+                    { "icon": "Youtube", "href": "#" }
+                  ]
+                },
+                {
+                  "name": "Aarav Singh",
+                  "role": "Breathing Therapy Expert",
+                  "description": "Teaches breathing techniques to increase energy, clarity and overall well-being.",
+                  "image": "/team/4.png",
+                  "socials": [
+                    { "icon": "Facebook", "href": "#" },
+                    { "icon": "Twitter", "href": "#" },
+                    { "icon": "Linkedin", "href": "#" },
+                    { "icon": "Youtube", "href": "#" }
+                  ]
+                }
+              ],
+              "button": {
+                "text": "View More",
+                "href": "#"
+              }
+            },
+            "testimonials": {
+                "subtitle": "CLIENT TESTIMONIALS",
+                "title": "Hear from our happy clients about their yoga and wellness journey with us.",
+                "reviews": [
+                  {
+                    "text": "The yoga classes here have completely transformed my lifestyle. I feel more energetic, focused and stress-free. The trainers are very professional and supportive.",
+                    "rating": 5,
+                    "author": "Neha Sharma",
+                    "role": "Yoga Enthusiast",
+                    "location": "New Delhi, India",
+                    "avatar": "/testimonials/1.webp"
+                  },
+                  {
+                    "text": "An amazing experience! The meditation sessions have improved my mental clarity and I feel much more relaxed. Highly recommended!",
+                    "rating": 5,
+                    "author": "Rohan Mehta",
+                    "role": "Fitness Enthusiast",
+                    "location": "Mumbai, India",
+                    "avatar": "/testimonials/2.webp"
+                  },
+                  {
+                    "text": "Joining this yoga studio is the best decision I've made for my health. The instructors pay attention to every student's needs.",
+                    "rating": 5,
+                    "author": "Priya Kapoor",
+                    "role": "Software Engineer",
+                    "location": "Pune, India",
+                    "avatar": "/testimonials/3.webp"
+                  },
+                  {
+                    "text": "The prenatal yoga classes were a blessing during my pregnancy. It kept me active and helped with the back pain immensely.",
+                    "rating": 5,
+                    "author": "Anjali Verma",
+                    "role": "New Mother",
+                    "location": "Bangalore, India",
+                    "avatar": "/testimonials/1.jpg"
+                  },
+                  {
+                    "text": "I started Vinyasa yoga a few months ago and my flexibility has improved tremendously. The atmosphere is so calming and positive.",
+                    "rating": 5,
+                    "author": "Riya Sen",
+                    "role": "Student",
+                    "location": "Goa, India",
+                    "avatar": "/testimonials/2.jpg"
+                  },
+                  {
+                    "text": "The breathing techniques I learned here helped me manage my anxiety and improve my overall lung capacity. Truly life changing.",
+                    "rating": 5,
+                    "author": "Sanya Mir",
+                    "role": "Designer",
+                    "location": "Pune, India",
+                    "avatar": "/testimonials/3.jpg"
+                  }
+                ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

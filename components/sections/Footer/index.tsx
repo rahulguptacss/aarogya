@@ -1,0 +1,220 @@
+'use client';
+import React, { useState } from 'react';
+import Link from 'next/link';
+import { FooterData } from '../../types';
+import { ChevronDown } from 'lucide-react';
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa6';
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
+import { IconType } from 'react-icons';
+import { motion } from 'framer-motion';
+
+interface FooterProps {
+  data: FooterData;
+}
+
+const socialIcons: Record<string, IconType> = { Facebook: FaFacebookF, Twitter: FaTwitter, Instagram: FaInstagram, Youtube: FaYoutube, Linkedin: FaLinkedinIn };
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.2
+    }
+  }
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5 }
+  }
+};
+
+export default function Footer({ data }: FooterProps) {
+  const [expanded, setExpanded] = useState<number | null>(null);
+
+  const toggleAccordion = (index: number) => {
+    setExpanded(expanded === index ? null : index);
+  };
+
+  const galleryImages = [
+    '/gallery/yoga_pose_01.png',
+    '/gallery/yoga_pose_02.png',
+    '/gallery/yoga_pose_03.png',
+    '/gallery/yoga_pose_04.png',
+    '/gallery/yoga_pose_05.png',
+    '/gallery/yoga_pose_06.png'
+  ];
+
+  return (
+    <footer className="bg-[#111111] pt-12 border-t border-[#c4a261]/20">
+      <div className="container mx-auto px-4 md:px-8 max-w-[1400px]">
+        
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2.5fr_1fr_1.2fr_1.8fr_2fr] gap-6 lg:gap-6 mb-8 lg:mb-10"
+        >
+          {/* Column 1: Logo & Description (Always Visible) */}
+          <motion.div variants={itemVariants} className="pr-2 lg:pr-8 mb-8 md:mb-0 flex flex-col items-center text-center md:items-start md:text-left">
+            <Link href="/" className="inline-block mb-0 md:-mt-6">
+               <img src="/logo/logo.png" alt="Aarogya Logo" className="h-24 sm:h-32 w-auto object-contain" />
+            </Link>
+            <p className="text-gray-300 text-[15px] md:text-[16.5px] leading-relaxed mb-5 md:mb-5">
+              {data.description}
+            </p>
+            <div className="flex items-center justify-center md:justify-start gap-4">
+              {data.socials.map((social, idx) => {
+                const SocialIcon = socialIcons[social.icon] || FaFacebookF;
+                return (
+                  <Link key={idx} href={social.href} className="w-11 h-11 rounded-full border border-[#c4a261] flex items-center justify-center text-white hover:bg-[#c4a261] transition-all duration-300">
+                    <SocialIcon className="w-4 h-4" />
+                  </Link>
+                );
+              })}
+            </div>
+          </motion.div>
+          
+          {/* Column 2: Quick Links */}
+          <motion.div variants={itemVariants} className="border-t border-[#c4a261]/20 md:border-none pt-4 md:pt-0">
+            <button 
+              className="w-full text-left md:cursor-default flex justify-between items-center md:block"
+              onClick={() => toggleAccordion(2)}
+            >
+              <h4 className="text-white font-bold text-[20px] md:mb-2">Quick <span className="text-[#c4a261]">Links</span></h4>
+              <ChevronDown className={`w-5 h-5 text-[#c4a261] md:hidden transition-transform duration-300 ${expanded === 2 ? 'rotate-180' : ''}`} />
+            </button>
+            <div className="hidden md:block w-8 h-[2px] bg-[#c4a261] mb-6"></div>
+            
+            <div className={`overflow-hidden transition-all duration-300 md:max-h-none md:overflow-visible ${expanded === 2 ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'} md:opacity-100 md:mt-0`}>
+              <ul className="space-y-2 pb-2 md:pb-0">
+                {data.quick_links.map((link, idx) => (
+                  <li key={idx}>
+                    <Link href={link.href} className="text-gray-300 hover:text-white text-[14px] flex items-center gap-2.5 transition-colors group">
+                      <span className="text-[#c4a261] font-bold text-lg leading-none group-hover:translate-x-1 transition-transform">&rsaquo;</span>
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+          
+          {/* Column 3: Our Services */}
+          <motion.div variants={itemVariants} className="border-t border-[#c4a261]/20 md:border-none pt-4 md:pt-0">
+            <button 
+              className="w-full text-left md:cursor-default flex justify-between items-center md:block"
+              onClick={() => toggleAccordion(3)}
+            >
+              <h4 className="text-white font-bold text-[20px] md:mb-2">Our <span className="text-[#c4a261]">Services</span></h4>
+              <ChevronDown className={`w-5 h-5 text-[#c4a261] md:hidden transition-transform duration-300 ${expanded === 3 ? 'rotate-180' : ''}`} />
+            </button>
+            <div className="hidden md:block w-8 h-[2px] bg-[#c4a261] mb-6"></div>
+            
+            <div className={`overflow-hidden transition-all duration-300 md:max-h-none md:overflow-visible ${expanded === 3 ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'} md:opacity-100 md:mt-0`}>
+              <ul className="space-y-2 pb-2 md:pb-0">
+                {data.our_services.map((link, idx) => (
+                  <li key={idx}>
+                    <Link href={link.href} className="text-gray-300 hover:text-white text-[14px] flex items-center gap-2.5 transition-colors group">
+                      <span className="text-[#c4a261] font-bold text-lg leading-none group-hover:translate-x-1 transition-transform">&rsaquo;</span>
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </motion.div>
+          
+          {/* Column 4: Contact Us */}
+          <motion.div variants={itemVariants} className="border-t border-[#c4a261]/20 md:border-none pt-4 md:pt-0">
+            <button 
+              className="w-full text-left md:cursor-default flex justify-between items-center md:block"
+              onClick={() => toggleAccordion(4)}
+            >
+              <h4 className="text-white font-bold text-[20px] md:mb-2">Contact <span className="text-[#c4a261]">Us</span></h4>
+              <ChevronDown className={`w-5 h-5 text-[#c4a261] md:hidden transition-transform duration-300 ${expanded === 4 ? 'rotate-180' : ''}`} />
+            </button>
+            <div className="hidden md:block w-8 h-[2px] bg-[#c4a261] mb-6"></div>
+            
+            <div className={`overflow-hidden transition-all duration-300 md:max-h-none md:overflow-visible ${expanded === 4 ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'} md:opacity-100 md:mt-0`}>
+              <div className="space-y-5 pb-2 md:pb-0">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-[#7a602d] flex items-center justify-center text-white flex-shrink-0">
+                    <FaPhoneAlt className="w-4 h-4 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-gray-300 text-[16px] font-medium leading-tight mb-1">{data.contact.phone}</p>
+                    <p className="text-gray-500 text-[13px]">{data.contact.hours}</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-[#7a602d] flex items-center justify-center text-white flex-shrink-0">
+                    <FaEnvelope className="w-4 h-4 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-gray-300 text-[16px] font-medium leading-tight mb-1">{data.contact.email}</p>
+                    <p className="text-gray-500 text-[13px]">We reply within 24 hours</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-[#7a602d] flex items-center justify-center text-white flex-shrink-0">
+                    <FaMapMarkerAlt className="w-4 h-4 text-white" />
+                  </div>
+                  <div className="text-gray-300 text-[15px] leading-relaxed">
+                    {data.contact.address}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+          
+          {/* Column 5: Our Gallery */}
+          <motion.div variants={itemVariants} className="border-y border-[#c4a261]/20 md:border-none py-4 md:py-0">
+            <button 
+              className="w-full text-left md:cursor-default flex justify-between items-center md:block"
+              onClick={() => toggleAccordion(5)}
+            >
+              <h4 className="text-white font-bold text-[20px] md:mb-2">Our <span className="text-[#c4a261]">Gallery</span></h4>
+              <ChevronDown className={`w-5 h-5 text-[#c4a261] md:hidden transition-transform duration-300 ${expanded === 5 ? 'rotate-180' : ''}`} />
+            </button>
+            <div className="hidden md:block w-8 h-[2px] bg-[#c4a261] mb-6"></div>
+            
+            <div className={`overflow-hidden transition-all duration-300 md:max-h-none md:overflow-visible ${expanded === 5 ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'} md:opacity-100 md:mt-0`}>
+              <div className="grid grid-cols-3 gap-2 pb-2 md:pb-0">
+                {galleryImages.map((src, i) => (
+                  <div key={i} className="bg-[#1a1a1a] aspect-square rounded-md overflow-hidden relative group">
+                     <img 
+                       src={src} 
+                       alt={`Gallery image ${i+1}`} 
+                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                     />
+                     <div className="absolute inset-0 bg-[#c4a261]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </motion.div>
+          
+        </motion.div>
+        
+      </div>
+      
+      {/* Copyright Bar */}
+      <div className="border-t border-[#c4a261]/20 py-4">
+         <div className="container mx-auto px-4 md:px-8 max-w-[1280px] flex flex-col md:flex-row items-center justify-between gap-4">
+           <p className="text-gray-400 text-[13px] text-center w-full">
+             Copyright © 2026. All rights reserved. Powered by <span className="text-[#c4a261] font-medium">Lestow</span>
+           </p>
+         </div>
+      </div>
+    </footer>
+  );
+}
