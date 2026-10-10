@@ -2,17 +2,21 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { AboutData } from '../../types';
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface AboutProps {
   data: AboutData;
+  showButton?: boolean;
 }
 
-export default function About({ data }: AboutProps) {
+export default function About({ data, showButton }: AboutProps) {
+  const pathname = usePathname();
+  const shouldShowButton = showButton !== undefined ? showButton : pathname === '/';
   return (
-    <section className="py-12 lg:py-16 bg-[#151515] relative overflow-hidden">
+    <section className="py-5 sm:py-7 lg:py-8 bg-[#151515] relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row gap-20 items-center">
           
@@ -31,7 +35,7 @@ export default function About({ data }: AboutProps) {
                 
                 {/* Image Container with golden border */}
                 <div className="relative w-full h-full rounded-[2rem] md:rounded-[3rem] border-[1.5px] border-[#c4a261] overflow-hidden z-10">
-                  <img src={data.image || "/images/about.jpg"} className="w-full h-full object-cover" alt="About Yoga" />
+                  <img src={data.image || "/img/about.webp"} className="w-full h-full object-cover" alt="About Yoga" />
                 </div>
                 
                 {/* Vertical Text Removed */}
@@ -143,18 +147,20 @@ export default function About({ data }: AboutProps) {
               ))}
             </motion.div>
             
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="pt-2 sm:pt-1"
-            >
-               <Link href={data.button.href} className="inline-flex items-center gap-2.5 bg-[#c4a261] hover:bg-[#b09054] text-white px-6 py-2.5 sm:px-7 sm:py-3 rounded-full font-medium text-[14px] sm:text-[15px] transition-all hover:scale-105 active:scale-95">
-                  {data.button.text}
-                  <ArrowRight className="w-[16px] h-[16px] sm:w-[18px] sm:h-[18px]" strokeWidth={2} />
-               </Link>
-            </motion.div>
+            {shouldShowButton && data.button && (
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                className="pt-2 sm:pt-1"
+              >
+                 <Link href={data.button.href || "/about"} className="inline-flex items-center gap-2.5 bg-[#c4a261] hover:bg-[#b09054] text-white px-6 py-2.5 sm:px-7 sm:py-3 rounded-full font-medium text-[14px] sm:text-[15px] transition-all hover:scale-105 active:scale-95">
+                    {data.button.text}
+                    <ArrowRight className="w-[16px] h-[16px] sm:w-[18px] sm:h-[18px]" strokeWidth={2} />
+                 </Link>
+              </motion.div>
+            )}
             
           </div>
           

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { HeaderData } from '../../types';
 import { Calendar, ArrowRight, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -12,6 +13,7 @@ interface HeaderProps {
 
 export default function Header({ data }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <motion.header 
@@ -22,13 +24,13 @@ export default function Header({ data }: HeaderProps) {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center">
-           <img src="/logo/logo.png" alt="Aarogya Logo" className="h-12 sm:h-14 md:h-20 w-auto object-contain" />
+           <img src={data.logo_image || "/logo/logo.webp"} alt={data.logo_text || "Aarogya Logo"} className="h-12 sm:h-14 md:h-20 w-auto object-contain" />
         </Link>
         
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-8">
           {data.links.map((link, index) => {
-            const isActive = link.name === 'Home';
+            const isActive = pathname === link.href;
             return (
               <Link 
                 key={index} 
@@ -87,7 +89,7 @@ export default function Header({ data }: HeaderProps) {
           >
             <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
               {data.links.map((link, index) => {
-                const isActive = link.name === 'Home';
+                const isActive = pathname === link.href;
                 return (
                   <motion.div
                     key={index}

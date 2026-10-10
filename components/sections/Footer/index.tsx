@@ -41,14 +41,17 @@ export default function Footer({ data }: FooterProps) {
     setExpanded(expanded === index ? null : index);
   };
 
-  const galleryImages = [
-    '/gallery/yoga_pose_01.png',
-    '/gallery/yoga_pose_02.png',
-    '/gallery/yoga_pose_03.png',
-    '/gallery/yoga_pose_04.png',
-    '/gallery/yoga_pose_05.png',
-    '/gallery/yoga_pose_06.png'
+  const defaultGallery = [
+    '/gallery/yoga_pose_01.webp',
+    '/gallery/yoga_pose_02.webp',
+    '/gallery/yoga_pose_03.webp',
+    '/gallery/yoga_pose_04.webp',
+    '/gallery/yoga_pose_05.webp',
+    '/gallery/yoga_pose_06.webp'
   ];
+
+  const galleryImages = data.gallery && data.gallery.length > 0 ? data.gallery : defaultGallery;
+  const servicesList = (data.our_services || []).slice(0, 8);
 
   return (
     <footer className="bg-[#111111] pt-12 border-t border-[#c4a261]/20">
@@ -64,7 +67,7 @@ export default function Footer({ data }: FooterProps) {
           {/* Column 1: Logo & Description (Always Visible) */}
           <motion.div variants={itemVariants} className="pr-2 lg:pr-8 mb-8 md:mb-0 flex flex-col items-center text-center md:items-start md:text-left">
             <Link href="/" className="inline-block mb-0 md:-mt-6">
-               <img src="/logo/logo.png" alt="Aarogya Logo" className="h-24 sm:h-32 w-auto object-contain" />
+               <img src={data.logo_image || "/logo/logo.webp"} alt={data.logo_text || "Aarogya Logo"} className="h-24 sm:h-32 w-auto object-contain" />
             </Link>
             <p className="text-gray-300 text-[15px] md:text-[16.5px] leading-relaxed mb-5 md:mb-5">
               {data.description}
@@ -119,7 +122,7 @@ export default function Footer({ data }: FooterProps) {
             
             <div className={`overflow-hidden transition-all duration-300 md:max-h-none md:overflow-visible ${expanded === 3 ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'} md:opacity-100 md:mt-0`}>
               <ul className="space-y-2 pb-2 md:pb-0">
-                {data.our_services.map((link, idx) => (
+                {servicesList.map((link, idx) => (
                   <li key={idx}>
                     <Link href={link.href} className="text-gray-300 hover:text-white text-[14px] flex items-center gap-2.5 transition-colors group">
                       <span className="text-[#c4a261] font-bold text-lg leading-none group-hover:translate-x-1 transition-transform">&rsaquo;</span>
@@ -144,34 +147,45 @@ export default function Footer({ data }: FooterProps) {
             
             <div className={`overflow-hidden transition-all duration-300 md:max-h-none md:overflow-visible ${expanded === 4 ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'} md:opacity-100 md:mt-0`}>
               <div className="space-y-5 pb-2 md:pb-0">
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-[#7a602d] flex items-center justify-center text-white flex-shrink-0">
+                <a 
+                  href={`tel:${data.contact.phone.replace(/\s+/g, '')}`} 
+                  className="flex items-start gap-4 group transition-all"
+                >
+                  <div className="w-10 h-10 rounded-full bg-[#7a602d] group-hover:bg-[#c4a261] flex items-center justify-center text-white flex-shrink-0 transition-colors shadow-sm">
                     <FaPhoneAlt className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <p className="text-gray-300 text-[16px] font-medium leading-tight mb-1">{data.contact.phone}</p>
+                    <p className="text-gray-300 group-hover:text-[#c4a261] text-[16px] font-medium leading-tight mb-1 transition-colors">{data.contact.phone}</p>
                     <p className="text-gray-500 text-[13px]">{data.contact.hours}</p>
                   </div>
-                </div>
+                </a>
                 
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-[#7a602d] flex items-center justify-center text-white flex-shrink-0">
+                <a 
+                  href={`mailto:${data.contact.email}`} 
+                  className="flex items-start gap-4 group transition-all"
+                >
+                  <div className="w-10 h-10 rounded-full bg-[#7a602d] group-hover:bg-[#c4a261] flex items-center justify-center text-white flex-shrink-0 transition-colors shadow-sm">
                     <FaEnvelope className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <p className="text-gray-300 text-[16px] font-medium leading-tight mb-1">{data.contact.email}</p>
-                    <p className="text-gray-500 text-[13px]">We reply within 24 hours</p>
+                    <p className="text-gray-300 group-hover:text-[#c4a261] text-[16px] font-medium leading-tight mb-1 transition-colors">{data.contact.email}</p>
+                    <p className="text-gray-500 text-[13px]">{data.contact.reply_text || "We reply within 24 hours"}</p>
                   </div>
-                </div>
+                </a>
                 
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-[#7a602d] flex items-center justify-center text-white flex-shrink-0">
+                <a 
+                  href={`https://maps.google.com/?q=${encodeURIComponent(data.contact.address)}`} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-start gap-4 group transition-all"
+                >
+                  <div className="w-10 h-10 rounded-full bg-[#7a602d] group-hover:bg-[#c4a261] flex items-center justify-center text-white flex-shrink-0 transition-colors shadow-sm">
                     <FaMapMarkerAlt className="w-4 h-4 text-white" />
                   </div>
-                  <div className="text-gray-300 text-[15px] leading-relaxed">
+                  <div className="text-gray-300 group-hover:text-[#c4a261] text-[15px] leading-relaxed transition-colors">
                     {data.contact.address}
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </motion.div>
@@ -209,9 +223,9 @@ export default function Footer({ data }: FooterProps) {
       
       {/* Copyright Bar */}
       <div className="border-t border-[#c4a261]/20 py-4">
-         <div className="container mx-auto px-4 md:px-8 max-w-[1280px] flex flex-col md:flex-row items-center justify-between gap-4">
-           <p className="text-gray-400 text-[13px] text-center w-full">
-             Copyright © 2026. All rights reserved. Powered by <span className="text-[#c4a261] font-medium">Lestow</span>
+         <div className="container mx-auto px-4 md:px-8 max-w-[1400px] flex items-center justify-center text-center">
+           <p className="text-gray-400 text-[13px] sm:text-[14px]">
+             {data.copyright || "Copyright © 2026. All rights reserved. Powered by Lestow"}
            </p>
          </div>
       </div>

@@ -41,7 +41,7 @@ function Counter({ value }: { value: string }) {
 
 export default function Stats({ data }: StatsProps) {
   return (
-    <section className="py-2 md:py-3 bg-[#151515]">
+    <section className="py-4 sm:py-5 bg-[#151515]">
       <div className="container mx-auto px-4 lg:px-0">
         <div className="grid grid-cols-2 md:grid-cols-4 items-center md:gap-0">
           {data.items.map((stat, idx) => (

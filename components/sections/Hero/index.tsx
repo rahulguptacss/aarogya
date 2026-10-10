@@ -1,17 +1,38 @@
 "use client";
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { HeroData } from '../../types';
-import { ArrowRight, Play, Users, Leaf } from 'lucide-react';
+import { ArrowRight, Play, Users, Leaf, X } from 'lucide-react';
 import { GiLotus } from 'react-icons/gi';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface HeroProps {
   data: HeroData;
 }
 
 export default function Hero({ data }: HeroProps) {
+  const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+
+  // Close modal on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsVideoModalOpen(false);
+      }
+    };
+    if (isVideoModalOpen) {
+      window.addEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = 'unset';
+    };
+  }, [isVideoModalOpen]);
+
   // Format subtitle to match screenshot spacing (replace + with bullet)
   const formattedSubtitle = data.subtitle.replace(/\+/g, '•');
 
@@ -68,12 +89,16 @@ export default function Hero({ data }: HeroProps) {
                 </div>
               </Link>
               
-              <Link href={data.secondary_button.href} className="flex items-center gap-2 sm:gap-4 text-white hover:text-[#c4a261] transition-all hover:scale-105 active:scale-95 group w-fit whitespace-nowrap">
-                <div className="border-[1.5px] border-[#c4a261] text-white group-hover:bg-[#c4a261] transition-colors rounded-full p-2 sm:p-3.5 flex items-center justify-center">
+              <button 
+                type="button"
+                onClick={() => setIsVideoModalOpen(true)}
+                className="flex items-center gap-2 sm:gap-4 text-white hover:text-[#c4a261] transition-all hover:scale-105 active:scale-95 group w-fit whitespace-nowrap cursor-pointer"
+              >
+                <div className="border-[1.5px] border-[#c4a261] text-white group-hover:bg-[#c4a261] group-hover:text-[#151515] transition-colors rounded-full p-2 sm:p-3.5 flex items-center justify-center">
                   <Play className="w-3 h-3 sm:w-5 sm:h-5 fill-current ml-0.5" />
                 </div>
-                <span className="font-semibold text-xs sm:text-[1.05rem]">{data.secondary_button.text}</span>
-              </Link>
+                <span className="font-semibold text-xs sm:text-[1.05rem]">{data.secondary_button?.text || "Watch Our Video"}</span>
+              </button>
             </motion.div>
             
             <motion.div 
@@ -161,7 +186,7 @@ export default function Hero({ data }: HeroProps) {
                 className="relative w-full h-full rounded-[2rem] overflow-hidden border-[6px] md:border-[8px] border-white shadow-2xl bg-[#111] z-10"
               >
                 <video 
-                  src="/video/bannervideo.mp4" 
+                  src={data.video || "/video/bannervideo.mp4"} 
                   autoPlay 
                   muted 
                   loop 
@@ -174,6 +199,47 @@ export default function Hero({ data }: HeroProps) {
           
         </div>
       </div>
+
+      {/* Video Popup Modal */}
+      <AnimatePresence>
+        {isVideoModalOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25 }}
+            onClick={() => setIsVideoModalOpen(false)}
+            className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-10 bg-black/85 backdrop-blur-md"
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              transition={{ duration: 0.3, type: "spring", bounce: 0.2 }}
+              onClick={(e) => e.stopPropagation()}
+              className="relative w-full max-w-4xl bg-[#111] rounded-2xl sm:rounded-3xl border border-[#c4a261]/40 shadow-2xl overflow-hidden aspect-video flex items-center justify-center"
+            >
+              {/* Close Button */}
+              <button
+                type="button"
+                onClick={() => setIsVideoModalOpen(false)}
+                className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-black/70 hover:bg-[#c4a261] text-white hover:text-[#151515] border border-white/20 hover:border-[#c4a261] flex items-center justify-center transition-all cursor-pointer shadow-lg"
+                aria-label="Close Video"
+              >
+                <X className="w-5 h-5" strokeWidth={2.5} />
+              </button>
+
+              <video
+                src={data.video || "/video/bannervideo.mp4"}
+                autoPlay
+                controls
+                playsInline
+                className="w-full h-full object-cover rounded-2xl sm:rounded-3xl"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }

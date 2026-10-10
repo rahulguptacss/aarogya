@@ -74,7 +74,7 @@ export default function Services({ data }: ServicesProps) {
   };
 
   return (
-    <section className="py-12 lg:py-16 bg-[#151515] relative overflow-hidden">
+    <section className="py-5 sm:py-7 lg:py-8 bg-[#151515] relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-8 max-w-[1400px]">
         
         {/* Top Header */}
@@ -177,7 +177,7 @@ export default function Services({ data }: ServicesProps) {
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.3 }}
-                    src={activeService.image || "/img/services.png"} 
+                    src={activeService.image || "/img/services.webp"} 
                     alt={activeService.title} 
                     className="w-full h-full object-cover absolute inset-0" 
                   />
@@ -235,8 +235,8 @@ export default function Services({ data }: ServicesProps) {
                  )}
                  
                  <div>
-                   <Link href="#" className="inline-flex items-center gap-2 sm:gap-3 bg-[#c4a261] text-[#151515] hover:bg-[#b09054] pl-6 sm:pl-8 pr-1.5 sm:pr-2 py-1.5 sm:py-2 rounded-full font-bold text-[14px] sm:text-[15px] transition-all">
-                     Book a Class
+                   <Link href={activeService.button_link || data.button_link || "/book-a-appointment"} className="inline-flex items-center gap-2 sm:gap-3 bg-[#c4a261] text-[#151515] hover:bg-[#b09054] pl-6 sm:pl-8 pr-1.5 sm:pr-2 py-1.5 sm:py-2 rounded-full font-bold text-[14px] sm:text-[15px] transition-all">
+                     {activeService.button_text || data.button_text || "Book a Class"}
                      <div className="bg-white rounded-full w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center shrink-0 ml-1 sm:ml-2">
                        <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 text-[#151515]" strokeWidth={2} />
                      </div>

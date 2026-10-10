@@ -57,7 +57,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
   const displayReviews = [...data.reviews, ...data.reviews, ...data.reviews];
 
   return (
-    <section className="py-6 lg:py-10 bg-[#151515] relative overflow-hidden">
+    <section className="py-5 sm:py-7 lg:py-8 bg-[#151515] relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-8 max-w-[1280px]">
         
         {/* Header */}
