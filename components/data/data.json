@@ -69,20 +69,16 @@
           "href": "/about"
         },
         {
-          "name": "Our Services",
+          "name": "Yoga Classes",
           "href": "/classes"
         },
         {
-          "name": "Our Team",
+          "name": "Our Trainers",
           "href": "/yoga-trainer"
         },
         {
-          "name": "Testimonials",
-          "href": "/#testimonials"
-        },
-        {
-          "name": "FAQ",
-          "href": "/contact"
+          "name": "Pricing / Packages",
+          "href": "/packages"
         },
         {
           "name": "Gallery",
@@ -121,11 +117,7 @@
         {
           "name": "Kundalini Yoga",
           "href": "/classes/kundalini-yoga"
-        },
-        {
-          "name": "Corporate Yoga",
-          "href": "/classes/corporate-yoga"
-        }
+        } 
       ],
       "contact": {
         "phone": "+100000000000",

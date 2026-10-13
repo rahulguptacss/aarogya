@@ -57,7 +57,7 @@ export default function Footer({ data }: FooterProps) {
           {/* Column 1: Logo & Description (Always Visible) */}
           <motion.div variants={itemVariants} className="pr-2 lg:pr-8 mb-8 md:mb-0 flex flex-col items-center text-center md:items-start md:text-left">
             <Link href="/" className="inline-block mb-2">
-               <img src={data.logo_image || "/logo/logo.webp"} alt={data.logo_text || "Aarogya Logo"} className="h-24 sm:h-32 w-auto object-contain" />
+               <img src={data.logo_image || "/logo/logo.webp"} alt={data.logo_text || "Aarogya Logo"} className="h-20 sm:h-24 w-auto object-contain" />
             </Link>
             <p className="text-gray-300 text-[15px] md:text-[16.5px] leading-relaxed mb-5 md:mb-5">
               {data.description}
