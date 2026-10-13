@@ -270,6 +270,13 @@ export interface ContactSocialItem {
   url: string;
 }
 
+export interface ThankYouData {
+  eyebrow: string;
+  title: string;
+  description: string;
+  button: { text: string; href: string };
+}
+
 export interface ContactSectionData {
   subtitle: string;
   title_line1: string;

@@ -3,7 +3,6 @@ import { common, sections, pages } from '../../components/types';
 import Header from '../../components/sections/Header';
 import Breadcrumb from '../../components/sections/Breadcrumb';
 import Appointment from '../../components/sections/Appointment';
-import Stats from '../../components/sections/Stats';
 import Footer from '../../components/sections/Footer';
 import BackToTop from '../../components/BackToTop';
 
@@ -17,8 +16,6 @@ const componentMap: Record<string, React.ComponentType<any>> = {
   BreadcrumbSection: Breadcrumb,
   Appointment,
   AppointmentSection: Appointment,
-  Stats,
-  StatsSection: Stats,
 };
 
 export default function BookAppointmentPage() {
@@ -35,8 +32,6 @@ export default function BookAppointmentPage() {
     },
     Appointment: (sections as any).appointment,
     AppointmentSection: (sections as any).appointment,
-    Stats: sections.stats,
-    StatsSection: sections.stats,
   };
 
   return (

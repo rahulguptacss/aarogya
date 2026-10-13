@@ -3,7 +3,6 @@ import { common, sections, pages } from '../../components/types';
 import Header from '../../components/sections/Header';
 import Breadcrumb from '../../components/sections/Breadcrumb';
 import Contact from '../../components/sections/Contact';
-import Stats from '../../components/sections/Stats';
 import Footer from '../../components/sections/Footer';
 import BackToTop from '../../components/BackToTop';
 
@@ -28,7 +27,6 @@ export default function ContactPage() {
           ]} 
         />
         <Contact data={contactData} />
-        <Stats data={sections.stats} />
       </main>
       <Footer data={common.Footer} />
       <BackToTop />

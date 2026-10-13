@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { TeamData } from '../../types';
 import { ArrowUpRight } from 'lucide-react';
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa6';
+import { FaFacebookF, FaXTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa6';
 import { IconType } from 'react-icons';
 import { motion } from 'framer-motion';
 
@@ -18,7 +18,7 @@ interface TeamProps {
 const icons: Record<string, IconType> = { 
   Facebook: FaFacebookF, 
   Instagram: FaInstagram,
-  Twitter: FaInstagram,
+  Twitter: FaXTwitter,
   Linkedin: FaLinkedinIn, 
   Youtube: FaYoutube 
 };

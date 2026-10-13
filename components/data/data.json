@@ -314,10 +314,6 @@
                 {
                   "key": "PackagesSection",
                   "component": "Packages"
-                },
-                {
-                  "key": "StatsSection",
-                  "component": "Stats"
                 }
               ]
             },
@@ -347,10 +343,6 @@
                 {
                   "key": "GallerySection",
                   "component": "Gallery"
-                },
-                {
-                  "key": "StatsSection",
-                  "component": "Stats"
                 }
               ]
             },
@@ -380,10 +372,6 @@
                 {
                   "key": "AppointmentSection",
                   "component": "Appointment"
-                },
-                {
-                  "key": "StatsSection",
-                  "component": "Stats"
                 }
               ]
             },
@@ -441,10 +429,20 @@
                 {
                   "key": "Contact",
                   "component": "Contact"
-                },
+                }
+              ]
+            },
+            "thank-you": {
+              "pageName": "thank-you",
+              "title": "Thank You",
+              "metadata": {
+                "title": "Thank You | Aarogya - Yoga & Fitness",
+                "description": "Thank you for getting in touch with Aarogya. We will get back to you shortly."
+              },
+              "components": [
                 {
-                  "key": "Stats",
-                  "component": "Stats"
+                  "key": "ThankYouSection",
+                  "component": "ThankYou"
                 }
               ]
             }
@@ -4575,6 +4573,15 @@
               "message_placeholder": "Your Message *",
               "button_text": "Send Message",
               "success_message": "Thank you! Your message has been sent successfully."
+            },
+            "thank_you": {
+              "eyebrow": "Aarogya",
+              "title": "Thank You",
+              "description": "Your message has been received. Our team will get back to you shortly to confirm the next step of your yoga journey.",
+              "button": {
+                "text": "Back to Home",
+                "href": "/"
+              }
             }
           }
         }

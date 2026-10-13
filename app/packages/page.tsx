@@ -3,7 +3,6 @@ import { common, sections, pages } from '../../components/types';
 import Header from '../../components/sections/Header';
 import Breadcrumb from '../../components/sections/Breadcrumb';
 import Packages from '../../components/sections/Packages';
-import Stats from '../../components/sections/Stats';
 import Footer from '../../components/sections/Footer';
 import BackToTop from '../../components/BackToTop';
 
@@ -17,8 +16,6 @@ const componentMap: Record<string, React.ComponentType<any>> = {
   BreadcrumbSection: Breadcrumb,
   Packages,
   PackagesSection: Packages,
-  Stats,
-  StatsSection: Stats,
 };
 
 export default function PackagesPage() {
@@ -35,8 +32,6 @@ export default function PackagesPage() {
     },
     Packages: (sections as any).packages,
     PackagesSection: (sections as any).packages,
-    Stats: sections.stats,
-    StatsSection: sections.stats,
   };
 
   return (

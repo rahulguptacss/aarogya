@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { User, Mail, Phone, MessageSquare, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { FaFacebookF, FaInstagram, FaYoutube, FaPinterestP } from 'react-icons/fa6';
@@ -42,6 +42,7 @@ const itemVariants: Variants = {
 };
 
 export default function Contact({ data }: ContactProps) {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -68,10 +69,7 @@ export default function Contact({ data }: ContactProps) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '', phone: '', message: '' });
-    }, 4500);
+    router.push('/thank-you');
   };
 
   return (

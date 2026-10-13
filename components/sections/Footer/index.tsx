@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { FooterData } from '../../types';
 import { ChevronDown } from 'lucide-react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa6';
+import { FaFacebookF, FaXTwitter, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa6';
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
 import { IconType } from 'react-icons';
 import { motion } from 'framer-motion';
@@ -12,7 +12,7 @@ interface FooterProps {
   data: FooterData;
 }
 
-const socialIcons: Record<string, IconType> = { Facebook: FaFacebookF, Twitter: FaTwitter, Instagram: FaInstagram, Youtube: FaYoutube, Linkedin: FaLinkedinIn };
+const socialIcons: Record<string, IconType> = { Facebook: FaFacebookF, Twitter: FaXTwitter, Instagram: FaInstagram, Youtube: FaYoutube, Linkedin: FaLinkedinIn };
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -41,16 +41,6 @@ export default function Footer({ data }: FooterProps) {
     setExpanded(expanded === index ? null : index);
   };
 
-  const defaultGallery = [
-    '/gallery/yoga_pose_01.webp',
-    '/gallery/yoga_pose_02.webp',
-    '/gallery/yoga_pose_03.webp',
-    '/gallery/yoga_pose_04.webp',
-    '/gallery/yoga_pose_05.webp',
-    '/gallery/yoga_pose_06.webp'
-  ];
-
-  const galleryImages = data.gallery && data.gallery.length > 0 ? data.gallery : defaultGallery;
   const servicesList = (data.our_services || []).slice(0, 8);
 
   return (
@@ -62,11 +52,11 @@ export default function Footer({ data }: FooterProps) {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2.5fr_1fr_1.2fr_1.8fr_2fr] gap-6 lg:gap-6 mb-8 lg:mb-10"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.45fr_1fr_1fr_1.05fr] gap-8 lg:gap-10 mb-8 lg:mb-10 items-start"
         >
           {/* Column 1: Logo & Description (Always Visible) */}
           <motion.div variants={itemVariants} className="pr-2 lg:pr-8 mb-8 md:mb-0 flex flex-col items-center text-center md:items-start md:text-left">
-            <Link href="/" className="inline-block mb-0 md:-mt-6">
+            <Link href="/" className="inline-block mb-2">
                <img src={data.logo_image || "/logo/logo.webp"} alt={data.logo_text || "Aarogya Logo"} className="h-24 sm:h-32 w-auto object-contain" />
             </Link>
             <p className="text-gray-300 text-[15px] md:text-[16.5px] leading-relaxed mb-5 md:mb-5">
@@ -135,7 +125,7 @@ export default function Footer({ data }: FooterProps) {
           </motion.div>
           
           {/* Column 4: Contact Us */}
-          <motion.div variants={itemVariants} className="border-t border-[#c4a261]/20 md:border-none pt-4 md:pt-0">
+          <motion.div variants={itemVariants} className="border-y border-[#c4a261]/20 md:border-none py-4 md:py-0">
             <button 
               className="w-full text-left md:cursor-default flex justify-between items-center md:block"
               onClick={() => toggleAccordion(4)}
@@ -186,33 +176,6 @@ export default function Footer({ data }: FooterProps) {
                     {data.contact.address}
                   </div>
                 </a>
-              </div>
-            </div>
-          </motion.div>
-          
-          {/* Column 5: Our Gallery */}
-          <motion.div variants={itemVariants} className="border-y border-[#c4a261]/20 md:border-none py-4 md:py-0">
-            <button 
-              className="w-full text-left md:cursor-default flex justify-between items-center md:block"
-              onClick={() => toggleAccordion(5)}
-            >
-              <h4 className="text-white font-bold text-[20px] md:mb-2">Our <span className="text-[#c4a261]">Gallery</span></h4>
-              <ChevronDown className={`w-5 h-5 text-[#c4a261] md:hidden transition-transform duration-300 ${expanded === 5 ? 'rotate-180' : ''}`} />
-            </button>
-            <div className="hidden md:block w-8 h-[2px] bg-[#c4a261] mb-6"></div>
-            
-            <div className={`overflow-hidden transition-all duration-300 md:max-h-none md:overflow-visible ${expanded === 5 ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'} md:opacity-100 md:mt-0`}>
-              <div className="grid grid-cols-3 gap-2 pb-2 md:pb-0">
-                {galleryImages.map((src, i) => (
-                  <div key={i} className="bg-[#1a1a1a] aspect-square rounded-md overflow-hidden relative group">
-                     <img 
-                       src={src} 
-                       alt={`Gallery image ${i+1}`} 
-                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
-                     />
-                     <div className="absolute inset-0 bg-[#c4a261]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  </div>
-                ))}
               </div>
             </div>
           </motion.div>

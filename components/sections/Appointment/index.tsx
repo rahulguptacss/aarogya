@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AppointmentSectionData } from '../../types';
 import {
@@ -24,6 +25,7 @@ interface AppointmentProps {
 }
 
 export default function Appointment({ data }: AppointmentProps) {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -114,6 +116,7 @@ export default function Appointment({ data }: AppointmentProps) {
 
     setServiceError(false);
     setIsSubmitted(true);
+    router.push('/thank-you');
 
     setTimeout(() => {
       setIsSubmitted(false);
