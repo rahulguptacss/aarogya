@@ -174,7 +174,7 @@ export default function ClassesDetails({ data }: ClassesDetailsProps) {
                   className="relative z-10 w-full h-[330px] sm:h-[410px] lg:h-[440px] rounded-[2.5rem] sm:rounded-[3rem] overflow-hidden shadow-2xl bg-[#1a1a1a] border border-white/5 cursor-pointer"
                 >
                   <img 
-                    src={data.image || "/class/hatha_yoga_detail.webp"} 
+                    src={data.image || "/gallery/1.webp"} 
                     alt={data.title_line1} 
                     className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
                   />
@@ -392,7 +392,7 @@ export default function ClassesDetails({ data }: ClassesDetailsProps) {
                   className="relative z-10 w-full h-[320px] sm:h-[390px] rounded-[2.5rem] sm:rounded-[3rem] overflow-hidden border border-white/10 shadow-2xl bg-[#111] cursor-pointer"
                 >
                   <img 
-                    src={data.benefits_image || "/class/yoga_pose_04.webp"} 
+                    src={data.benefits_image || "/gallery/2.webp"} 
                     alt="Benefits" 
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />

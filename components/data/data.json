@@ -117,7 +117,7 @@
         {
           "name": "Kundalini Yoga",
           "href": "/classes/kundalini-yoga"
-        } 
+        }
       ],
       "contact": {
         "phone": "+100000000000",
@@ -129,12 +129,12 @@
       "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
       "logo_image": "/logo/logo.webp",
       "gallery": [
-        "/gallery/yoga_pose_01.webp",
-        "/gallery/yoga_pose_02.webp",
-        "/gallery/yoga_pose_03.webp",
-        "/gallery/yoga_pose_04.webp",
-        "/gallery/yoga_pose_05.webp",
-        "/gallery/yoga_pose_06.webp"
+        "/gallery/1.webp",
+        "/gallery/2.webp",
+        "/gallery/3.webp",
+        "/gallery/4.webp",
+        "/gallery/5.webp",
+        "/gallery/6.webp"
       ]
     }
   },
@@ -868,7 +868,7 @@
                   "title_line1": "Build Strength",
                   "title_line2": "and Inner Balance",
                   "description": "Hatha Yoga is a traditional practice that focuses on physical postures, breathing techniques and mindfulness. It helps improve flexibility, build strength and reduce stress.",
-                  "image": "/class/hatha_yoga_detail.webp",
+                  "image": "/gallery/1.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/hatha-yoga"
                 },
@@ -879,7 +879,7 @@
                   "title_line1": "Flow with",
                   "title_line2": "Energy and Focus",
                   "description": "Vinyasa Yoga connects breath with movement to create a dynamic flow. It improves flexibility, builds endurance and helps you stay focused and energized throughout the day.",
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/2.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/vinyasa-yoga"
                 },
@@ -890,7 +890,7 @@
                   "title_line1": "Breathing for",
                   "title_line2": "a Calmer Mind",
                   "description": "Pranayama focuses on controlled breathing techniques to improve lung capacity, reduce stress and bring mental clarity. It helps balance the body and mind naturally.",
-                  "image": "/class/yoga_pose_01.webp",
+                  "image": "/gallery/3.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/pranayama"
                 },
@@ -901,7 +901,7 @@
                   "title_line1": "Peace, Clarity",
                   "title_line2": "and Inner Harmony",
                   "description": "Our meditation classes help you reduce stress, improve concentration and develop a positive mindset. Experience deep relaxation and mental well-being.",
-                  "image": "/class/yoga_pose_07.webp",
+                  "image": "/gallery/4.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/meditation-classes"
                 },
@@ -912,7 +912,7 @@
                   "title_line1": "Awaken Your",
                   "title_line2": "Inner Energy",
                   "description": "Kundalini Yoga helps awaken your inner energy, improve self-awareness and support spiritual growth. It combines breathwork, movement and meditation for a balanced life.",
-                  "image": "/class/yoga_pose_04.webp",
+                  "image": "/gallery/5.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/kundalini-yoga"
                 },
@@ -923,7 +923,7 @@
                   "title_line1": "Deep Relaxation",
                   "title_line2": "and Flexibility",
                   "description": "Yin Yoga is a gentle practice that targets deep connective tissues, improves flexibility and promotes relaxation. It helps calm the mind and release tension from the body.",
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/6.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/yin-yoga"
                 },
@@ -933,7 +933,7 @@
                   "title_line1": "Power & Discipline",
                   "title_line2": "and Pure Focus",
                   "description": "A structured series of vigorous postures designed to build internal heat, stamina and purify the body through synchronised breath.",
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/7.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/ashtanga-yoga",
                   "slug": "ashtanga-yoga"
@@ -944,7 +944,7 @@
                   "title_line1": "Detoxify Body",
                   "title_line2": "and Boost Energy",
                   "description": "Practiced in a heated room to promote deep stretching, flush toxins and improve cardiovascular strength and mental discipline.",
-                  "image": "/gallery/yoga_pose_13.webp",
+                  "image": "/gallery/8.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/bikram-yoga",
                   "slug": "bikram-yoga"
@@ -955,7 +955,7 @@
                   "title_line1": "Deep Healing",
                   "title_line2": "and Rejuvenation",
                   "description": "A slow-paced style utilizing supportive props to encourage passive stretching, calm the nervous system and heal stress.",
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/9.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/restorative-yoga",
                   "slug": "restorative-yoga"
@@ -966,7 +966,7 @@
                   "title_line1": "Gentle Movement",
                   "title_line2": "for Mother & Baby",
                   "description": "Tailored postures designed to nurture expecting mothers, relieve pregnancy aches, improve breathing and prepare for childbirth.",
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/10.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/prenatal-yoga",
                   "slug": "prenatal-yoga"
@@ -977,7 +977,7 @@
                   "title_line1": "Defy Gravity",
                   "title_line2": "and Build Core",
                   "description": "Combine traditional yoga postures with silk hammocks to decompress the spine, enhance balance and experience weightless freedom.",
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/11.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/aerial-yoga",
                   "slug": "aerial-yoga"
@@ -988,7 +988,7 @@
                   "title_line1": "Conscious Sleep",
                   "title_line2": "and Deep Rest",
                   "description": "An ancient guided relaxation technique leading you between waking and sleeping states for profound recovery and inner peace.",
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/12.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/yoga-nidra",
                   "slug": "yoga-nidra"
@@ -999,7 +999,7 @@
                   "title_line1": "High Intensity",
                   "title_line2": "Strength & Agility",
                   "description": "An athletic, fast-paced sequence focusing on core stability, metabolic conditioning and full-body dynamic endurance.",
-                  "image": "/gallery/yoga_pose_06.webp",
+                  "image": "/gallery/13.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/power-yoga",
                   "slug": "power-yoga"
@@ -1010,7 +1010,7 @@
                   "title_line1": "Vibrational Tones",
                   "title_line2": "and Chakra Balance",
                   "description": "Immerse in restorative postures complemented by singing bowls and vibrational frequencies to align energy centers.",
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/14.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/sound-healing",
                   "slug": "sound-healing"
@@ -1021,7 +1021,7 @@
                   "title_line1": "Workplace Wellness",
                   "title_line2": "and Stress Relief",
                   "description": "Desk-friendly stretches and postural corrections engineered to reduce workplace burnout, improve focus and combat sedentary strain.",
-                  "image": "/gallery/yoga_pose_07.webp",
+                  "image": "/gallery/15.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/corporate-yoga",
                   "slug": "corporate-yoga"
@@ -1032,7 +1032,7 @@
                   "title_line1": "Partner Flow",
                   "title_line2": "Trust & Playfulness",
                   "description": "Combine yoga postures with partner acrobatics and Thai massage principles to foster communication, balance and strength.",
-                  "image": "/gallery/yoga_pose_11.webp",
+                  "image": "/gallery/16.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/acro-yoga",
                   "slug": "acro-yoga"
@@ -1043,7 +1043,7 @@
                   "title_line1": "Mobility Recovery",
                   "title_line2": "and Alignment",
                   "description": "Customized movement therapy targeting chronic pain, joint stiffness and rehabilitation guided by experienced practitioners.",
-                  "image": "/gallery/yoga_pose_16.webp",
+                  "image": "/gallery/1.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/therapeutic-yoga",
                   "slug": "therapeutic-yoga"
@@ -1054,7 +1054,7 @@
                   "title_line1": "Awaken Your Spirit",
                   "title_line2": "Every Sunrise",
                   "description": "A revitalizing morning sequence of twelve graceful postures linked with deep breathing to kickstart metabolism and vitality.",
-                  "image": "/class/yoga_pose_01.webp",
+                  "image": "/gallery/2.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/sun-salutation",
                   "slug": "sun-salutation"
@@ -1065,7 +1065,7 @@
                   "title_line1": "Precision Alignment",
                   "title_line2": "and Props Mastery",
                   "description": "Emphasis on structural alignment and therapeutic sequencing using belts, blocks and blankets for deep anatomical awareness.",
-                  "image": "/class/yoga_pose_02.webp",
+                  "image": "/gallery/3.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/iyengar-yoga",
                   "slug": "iyengar-yoga"
@@ -1076,7 +1076,7 @@
                   "title_line1": "Spiritual Flow",
                   "title_line2": "and Ethical Living",
                   "description": "A vigorous vinyasa-based method integrating chanting, meditation, spiritual teachings and uplifting music for holistic growth.",
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/4.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/jivamukti-yoga",
                   "slug": "jivamukti-yoga"
@@ -1087,7 +1087,7 @@
                   "title_line1": "Self Acceptance",
                   "title_line2": "and Inquiry Flow",
                   "description": "A compassionate practice combining gentle postures and pranayama to awaken intuitive wisdom and emotional transformation.",
-                  "image": "/class/yoga_pose_07.webp",
+                  "image": "/gallery/5.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/kripalu-yoga",
                   "slug": "kripalu-yoga"
@@ -1098,7 +1098,7 @@
                   "title_line1": "Twelve Classical",
                   "title_line2": "Daily Postures",
                   "description": "Rooted in classical wisdom with proper exercise, breathing, relaxation, vegetarian nutrition and positive thinking.",
-                  "image": "/class/yoga_pose_04.webp",
+                  "image": "/gallery/6.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/sivananda-yoga",
                   "slug": "sivananda-yoga"
@@ -1109,7 +1109,7 @@
                   "title_line1": "Royal Path",
                   "title_line2": "of Mind Mastery",
                   "description": "The path of meditation and eightfold discipline to control psychic energy, expand consciousness and cultivate samadhi.",
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/7.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/raja-yoga",
                   "slug": "raja-yoga"
@@ -1120,7 +1120,7 @@
                   "title_line1": "Heart Devotion",
                   "title_line2": "and Divine Love",
                   "description": "Expressive devotional practice through sacred kirtan chanting, loving mindfulness and heart-opening meditations.",
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/8.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/bhakti-yoga",
                   "slug": "bhakti-yoga"
@@ -1131,7 +1131,7 @@
                   "title_line1": "Selfless Action",
                   "title_line2": "and Joyful Service",
                   "description": "Integrate mindfulness into everyday living and selfless dedication, freeing the mind from attachment and cultivating peace.",
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/9.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/karma-yoga",
                   "slug": "karma-yoga"
@@ -1142,7 +1142,7 @@
                   "title_line1": "Wisdom Path",
                   "title_line2": "and Self Knowledge",
                   "description": "Philosophical contemplation and self-inquiry exploring the true nature of the self through meditation and ancient scriptures.",
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/10.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/jnana-yoga",
                   "slug": "jnana-yoga"
@@ -1153,7 +1153,7 @@
                   "title_line1": "Joyful Breath",
                   "title_line2": "and Uplifted Spirits",
                   "description": "Combining unconditional laughter with yogic breathing to boost endorphins, oxygenate cells and melt away stress.",
-                  "image": "/gallery/yoga_pose_01.webp",
+                  "image": "/gallery/11.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/laughter-yoga",
                   "slug": "laughter-yoga"
@@ -1164,7 +1164,7 @@
                   "title_line1": "Accessible Poses",
                   "title_line2": "for All Ages",
                   "description": "Gentle seated and supported standing stretches tailored for seniors, office workers and those with limited mobility.",
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/12.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/chair-yoga",
                   "slug": "chair-yoga"
@@ -1175,7 +1175,7 @@
                   "title_line1": "Center Strength",
                   "title_line2": "and Balanced Power",
                   "description": "Dynamic movements targeting the abdominal and pelvic floor muscles to build stability, improve posture and prevent injury.",
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/13.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/core-flow-yoga",
                   "slug": "core-flow-yoga"
@@ -1186,7 +1186,7 @@
                   "title_line1": "Energy Centers",
                   "title_line2": "Harmonized Flow",
                   "description": "Targeted asanas, seed mantras and visualizations to cleanse and activate the seven energy vortexes along the spine.",
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/14.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/chakra-balancing",
                   "slug": "chakra-balancing"
@@ -1197,7 +1197,7 @@
                   "title_line1": "Gentle Stretches",
                   "title_line2": "for Sweet Sleep",
                   "description": "Soothing nighttime sequence designed to lower cortisol levels, release day's tension and prepare your body for deep slumber.",
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/15.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/evening-wind-down",
                   "slug": "evening-wind-down"
@@ -1208,7 +1208,7 @@
                   "title_line1": "Vibrant Energy",
                   "title_line2": "Breath Mastery",
                   "description": "Advanced breath retention and rhythmic pranayama techniques to expand energetic capacity and enhance life force.",
-                  "image": "/class/yoga_pose_01.webp",
+                  "image": "/gallery/16.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/prana-immersion",
                   "slug": "prana-immersion"
@@ -1219,7 +1219,7 @@
                   "title_line1": "Deep Twists",
                   "title_line2": "and Internal Cleansing",
                   "description": "Stimulate digestive fire and activate lymphatic drainage with invigorating compression poses and dynamic twists.",
-                  "image": "/class/yoga_pose_02.webp",
+                  "image": "/gallery/1.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/detox-flow-yoga",
                   "slug": "detox-flow-yoga"
@@ -1230,7 +1230,7 @@
                   "title_line1": "Somatic Posture",
                   "title_line2": "Body Harmony",
                   "description": "Slow, deliberate somatic movements to retrain neuromuscular patterns, release chronic holdings and align bones naturally.",
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/2.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/mindful-alignment",
                   "slug": "mindful-alignment"
@@ -1241,7 +1241,7 @@
                   "title_line1": "Long Holds",
                   "title_line2": "and Fascia Release",
                   "description": "Target deep connective fascial sheaths and tendons with sustained static holds to safely unlock joint flexibility.",
-                  "image": "/class/yoga_pose_04.webp",
+                  "image": "/gallery/3.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/flexibility-sculpt",
                   "slug": "flexibility-sculpt"
@@ -1252,7 +1252,7 @@
                   "title_line1": "Transcendence",
                   "title_line2": "and Pure Stillness",
                   "description": "The pinnacle yogic experience: silent absorption into boundless awareness, stillness and unified consciousness.",
-                  "image": "/class/yoga_pose_07.webp",
+                  "image": "/gallery/4.webp",
                   "button_text": "Read More",
                   "button_link": "/classes/samadhi-meditation",
                   "slug": "samadhi-meditation"
@@ -1289,7 +1289,7 @@
                 "benefits_title_line1": "Benefits of",
                 "benefits_title_line2": "Yoga Practice",
                 "benefits_description": "Regular practice brings profound physical, emotional and mental transformation. It keeps your body supple, improves postural alignment, elevates energy levels and relieves daily stress, allowing you to live with greater balance and vitality.",
-                "benefits_image": "/class/yoga_pose_04.webp",
+                "benefits_image": "/gallery/2.webp",
                 "benefits_list": [
                   "Improves flexibility, posture and spine alignment",
                   "Strengthens core muscles and stabilizes joints",
@@ -1324,7 +1324,8 @@
                     "title": "Achieve Results",
                     "desc": "Experience enhanced vigor, tranquil mind and lasting health."
                   }
-                ]
+                ],
+                "image": "/gallery/1.webp"
               },
               "items": [
                 {
@@ -1333,7 +1334,7 @@
                   "title_line1": "Build Strength",
                   "title_line2": "and Inner Balance",
                   "description": "Hatha Yoga is a traditional practice that focuses on physical postures, breathing techniques and mindfulness. It helps improve flexibility, build strength and reduce stress.",
-                  "image": "/class/hatha_yoga_detail.webp",
+                  "image": "/gallery/1.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1362,7 +1363,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "HATHA YOGA",
                   "benefits_description": "Hatha Yoga is a traditional practice that focuses on physical postures, breathing techniques and mindfulness. It helps improve flexibility, build strength and reduce stress. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/hatha_yoga_detail.webp",
+                  "benefits_image": "/gallery/1.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1405,7 +1406,7 @@
                   "title_line1": "Flow with",
                   "title_line2": "Energy and Focus",
                   "description": "Vinyasa Yoga connects breath with movement to create a dynamic flow. It improves flexibility, builds endurance and helps you stay focused and energized throughout the day.",
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/2.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1434,7 +1435,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "VINYASA YOGA",
                   "benefits_description": "Vinyasa Yoga connects breath with movement to create a dynamic flow. It improves flexibility, builds endurance and helps you stay focused and energized throughout the day. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_08.webp",
+                  "benefits_image": "/gallery/2.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1477,7 +1478,7 @@
                   "title_line1": "Breathing for",
                   "title_line2": "a Calmer Mind",
                   "description": "Pranayama focuses on controlled breathing techniques to improve lung capacity, reduce stress and bring mental clarity. It helps balance the body and mind naturally.",
-                  "image": "/class/yoga_pose_01.webp",
+                  "image": "/gallery/3.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1506,7 +1507,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "PRANAYAMA",
                   "benefits_description": "Pranayama focuses on controlled breathing techniques to improve lung capacity, reduce stress and bring mental clarity. It helps balance the body and mind naturally. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_01.webp",
+                  "benefits_image": "/gallery/3.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1549,7 +1550,7 @@
                   "title_line1": "Peace, Clarity",
                   "title_line2": "and Inner Harmony",
                   "description": "Our meditation classes help you reduce stress, improve concentration and develop a positive mindset. Experience deep relaxation and mental well-being.",
-                  "image": "/class/yoga_pose_07.webp",
+                  "image": "/gallery/4.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1578,7 +1579,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "MEDITATION CLASSES",
                   "benefits_description": "Our meditation classes help you reduce stress, improve concentration and develop a positive mindset. Experience deep relaxation and mental well-being. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_07.webp",
+                  "benefits_image": "/gallery/4.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1621,7 +1622,7 @@
                   "title_line1": "Awaken Your",
                   "title_line2": "Inner Energy",
                   "description": "Kundalini Yoga helps awaken your inner energy, improve self-awareness and support spiritual growth. It combines breathwork, movement and meditation for a balanced life.",
-                  "image": "/class/yoga_pose_04.webp",
+                  "image": "/gallery/5.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1650,7 +1651,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "KUNDALINI YOGA",
                   "benefits_description": "Kundalini Yoga helps awaken your inner energy, improve self-awareness and support spiritual growth. It combines breathwork, movement and meditation for a balanced life. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_04.webp",
+                  "benefits_image": "/gallery/5.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1693,7 +1694,7 @@
                   "title_line1": "Deep Relaxation",
                   "title_line2": "and Flexibility",
                   "description": "Yin Yoga is a gentle practice that targets deep connective tissues, improves flexibility and promotes relaxation. It helps calm the mind and release tension from the body.",
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/6.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1722,7 +1723,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "YIN YOGA",
                   "benefits_description": "Yin Yoga is a gentle practice that targets deep connective tissues, improves flexibility and promotes relaxation. It helps calm the mind and release tension from the body. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_10.webp",
+                  "benefits_image": "/gallery/6.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1765,7 +1766,7 @@
                   "title_line1": "Power & Discipline",
                   "title_line2": "and Pure Focus",
                   "description": "A structured series of vigorous postures designed to build internal heat, stamina and purify the body through synchronised breath.",
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/7.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1794,7 +1795,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "ASHTANGA YOGA",
                   "benefits_description": "A structured series of vigorous postures designed to build internal heat, stamina and purify the body through synchronised breath. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_05.webp",
+                  "benefits_image": "/gallery/7.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1837,7 +1838,7 @@
                   "title_line1": "Detoxify Body",
                   "title_line2": "and Boost Energy",
                   "description": "Practiced in a heated room to promote deep stretching, flush toxins and improve cardiovascular strength and mental discipline.",
-                  "image": "/gallery/yoga_pose_13.webp",
+                  "image": "/gallery/8.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1866,7 +1867,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "BIKRAM YOGA",
                   "benefits_description": "Practiced in a heated room to promote deep stretching, flush toxins and improve cardiovascular strength and mental discipline. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_13.webp",
+                  "benefits_image": "/gallery/8.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1909,7 +1910,7 @@
                   "title_line1": "Deep Healing",
                   "title_line2": "and Rejuvenation",
                   "description": "A slow-paced style utilizing supportive props to encourage passive stretching, calm the nervous system and heal stress.",
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/9.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -1938,7 +1939,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "RESTORATIVE YOGA",
                   "benefits_description": "A slow-paced style utilizing supportive props to encourage passive stretching, calm the nervous system and heal stress. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_09.webp",
+                  "benefits_image": "/gallery/9.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -1981,7 +1982,7 @@
                   "title_line1": "Gentle Movement",
                   "title_line2": "for Mother & Baby",
                   "description": "Tailored postures designed to nurture expecting mothers, relieve pregnancy aches, improve breathing and prepare for childbirth.",
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/10.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2010,7 +2011,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "PRENATAL YOGA",
                   "benefits_description": "Tailored postures designed to nurture expecting mothers, relieve pregnancy aches, improve breathing and prepare for childbirth. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_14.webp",
+                  "benefits_image": "/gallery/10.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2053,7 +2054,7 @@
                   "title_line1": "Defy Gravity",
                   "title_line2": "and Build Core",
                   "description": "Combine traditional yoga postures with silk hammocks to decompress the spine, enhance balance and experience weightless freedom.",
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/11.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2082,7 +2083,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "AERIAL YOGA",
                   "benefits_description": "Combine traditional yoga postures with silk hammocks to decompress the spine, enhance balance and experience weightless freedom. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_15.webp",
+                  "benefits_image": "/gallery/11.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2125,7 +2126,7 @@
                   "title_line1": "Conscious Sleep",
                   "title_line2": "and Deep Rest",
                   "description": "An ancient guided relaxation technique leading you between waking and sleeping states for profound recovery and inner peace.",
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/12.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2154,7 +2155,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "YOGA NIDRA",
                   "benefits_description": "An ancient guided relaxation technique leading you between waking and sleeping states for profound recovery and inner peace. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_12.webp",
+                  "benefits_image": "/gallery/12.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2197,7 +2198,7 @@
                   "title_line1": "High Intensity",
                   "title_line2": "Strength & Agility",
                   "description": "An athletic, fast-paced sequence focusing on core stability, metabolic conditioning and full-body dynamic endurance.",
-                  "image": "/gallery/yoga_pose_06.webp",
+                  "image": "/gallery/13.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2226,7 +2227,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "POWER YOGA",
                   "benefits_description": "An athletic, fast-paced sequence focusing on core stability, metabolic conditioning and full-body dynamic endurance. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_06.webp",
+                  "benefits_image": "/gallery/13.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2269,7 +2270,7 @@
                   "title_line1": "Vibrational Tones",
                   "title_line2": "and Chakra Balance",
                   "description": "Immerse in restorative postures complemented by singing bowls and vibrational frequencies to align energy centers.",
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/14.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2298,7 +2299,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "SOUND HEALING",
                   "benefits_description": "Immerse in restorative postures complemented by singing bowls and vibrational frequencies to align energy centers. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_03.webp",
+                  "benefits_image": "/gallery/14.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2341,7 +2342,7 @@
                   "title_line1": "Workplace Wellness",
                   "title_line2": "and Stress Relief",
                   "description": "Desk-friendly stretches and postural corrections engineered to reduce workplace burnout, improve focus and combat sedentary strain.",
-                  "image": "/gallery/yoga_pose_07.webp",
+                  "image": "/gallery/15.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2370,7 +2371,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "CORPORATE YOGA",
                   "benefits_description": "Desk-friendly stretches and postural corrections engineered to reduce workplace burnout, improve focus and combat sedentary strain. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_07.webp",
+                  "benefits_image": "/gallery/15.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2413,7 +2414,7 @@
                   "title_line1": "Partner Flow",
                   "title_line2": "Trust & Playfulness",
                   "description": "Combine yoga postures with partner acrobatics and Thai massage principles to foster communication, balance and strength.",
-                  "image": "/gallery/yoga_pose_11.webp",
+                  "image": "/gallery/16.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2442,7 +2443,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "ACRO YOGA",
                   "benefits_description": "Combine yoga postures with partner acrobatics and Thai massage principles to foster communication, balance and strength. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_11.webp",
+                  "benefits_image": "/gallery/16.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2485,7 +2486,7 @@
                   "title_line1": "Mobility Recovery",
                   "title_line2": "and Alignment",
                   "description": "Customized movement therapy targeting chronic pain, joint stiffness and rehabilitation guided by experienced practitioners.",
-                  "image": "/gallery/yoga_pose_16.webp",
+                  "image": "/gallery/1.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2514,7 +2515,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "THERAPEUTIC YOGA",
                   "benefits_description": "Customized movement therapy targeting chronic pain, joint stiffness and rehabilitation guided by experienced practitioners. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_16.webp",
+                  "benefits_image": "/gallery/1.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2557,7 +2558,7 @@
                   "title_line1": "Awaken Your Spirit",
                   "title_line2": "Every Sunrise",
                   "description": "A revitalizing morning sequence of twelve graceful postures linked with deep breathing to kickstart metabolism and vitality.",
-                  "image": "/class/yoga_pose_01.webp",
+                  "image": "/gallery/2.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2586,7 +2587,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "SUN SALUTATION",
                   "benefits_description": "A revitalizing morning sequence of twelve graceful postures linked with deep breathing to kickstart metabolism and vitality. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_01.webp",
+                  "benefits_image": "/gallery/2.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2629,7 +2630,7 @@
                   "title_line1": "Precision Alignment",
                   "title_line2": "and Props Mastery",
                   "description": "Emphasis on structural alignment and therapeutic sequencing using belts, blocks and blankets for deep anatomical awareness.",
-                  "image": "/class/yoga_pose_02.webp",
+                  "image": "/gallery/3.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2658,7 +2659,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "IYENGAR YOGA",
                   "benefits_description": "Emphasis on structural alignment and therapeutic sequencing using belts, blocks and blankets for deep anatomical awareness. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_02.webp",
+                  "benefits_image": "/gallery/3.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2701,7 +2702,7 @@
                   "title_line1": "Spiritual Flow",
                   "title_line2": "and Ethical Living",
                   "description": "A vigorous vinyasa-based method integrating chanting, meditation, spiritual teachings and uplifting music for holistic growth.",
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/4.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2730,7 +2731,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "JIVAMUKTI YOGA",
                   "benefits_description": "A vigorous vinyasa-based method integrating chanting, meditation, spiritual teachings and uplifting music for holistic growth. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_08.webp",
+                  "benefits_image": "/gallery/4.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2773,7 +2774,7 @@
                   "title_line1": "Self Acceptance",
                   "title_line2": "and Inquiry Flow",
                   "description": "A compassionate practice combining gentle postures and pranayama to awaken intuitive wisdom and emotional transformation.",
-                  "image": "/class/yoga_pose_07.webp",
+                  "image": "/gallery/5.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2802,7 +2803,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "KRIPALU YOGA",
                   "benefits_description": "A compassionate practice combining gentle postures and pranayama to awaken intuitive wisdom and emotional transformation. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_07.webp",
+                  "benefits_image": "/gallery/5.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2845,7 +2846,7 @@
                   "title_line1": "Twelve Classical",
                   "title_line2": "Daily Postures",
                   "description": "Rooted in classical wisdom with proper exercise, breathing, relaxation, vegetarian nutrition and positive thinking.",
-                  "image": "/class/yoga_pose_04.webp",
+                  "image": "/gallery/6.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2874,7 +2875,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "SIVANANDA YOGA",
                   "benefits_description": "Rooted in classical wisdom with proper exercise, breathing, relaxation, vegetarian nutrition and positive thinking. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_04.webp",
+                  "benefits_image": "/gallery/6.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2917,7 +2918,7 @@
                   "title_line1": "Royal Path",
                   "title_line2": "of Mind Mastery",
                   "description": "The path of meditation and eightfold discipline to control psychic energy, expand consciousness and cultivate samadhi.",
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/7.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -2946,7 +2947,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "RAJA YOGA",
                   "benefits_description": "The path of meditation and eightfold discipline to control psychic energy, expand consciousness and cultivate samadhi. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_10.webp",
+                  "benefits_image": "/gallery/7.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -2989,7 +2990,7 @@
                   "title_line1": "Heart Devotion",
                   "title_line2": "and Divine Love",
                   "description": "Expressive devotional practice through sacred kirtan chanting, loving mindfulness and heart-opening meditations.",
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/8.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3018,7 +3019,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "BHAKTI YOGA",
                   "benefits_description": "Expressive devotional practice through sacred kirtan chanting, loving mindfulness and heart-opening meditations. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_05.webp",
+                  "benefits_image": "/gallery/8.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3061,7 +3062,7 @@
                   "title_line1": "Selfless Action",
                   "title_line2": "and Joyful Service",
                   "description": "Integrate mindfulness into everyday living and selfless dedication, freeing the mind from attachment and cultivating peace.",
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/9.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3090,7 +3091,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "KARMA YOGA",
                   "benefits_description": "Integrate mindfulness into everyday living and selfless dedication, freeing the mind from attachment and cultivating peace. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_14.webp",
+                  "benefits_image": "/gallery/9.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3133,7 +3134,7 @@
                   "title_line1": "Wisdom Path",
                   "title_line2": "and Self Knowledge",
                   "description": "Philosophical contemplation and self-inquiry exploring the true nature of the self through meditation and ancient scriptures.",
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/10.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3162,7 +3163,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "JNANA YOGA",
                   "benefits_description": "Philosophical contemplation and self-inquiry exploring the true nature of the self through meditation and ancient scriptures. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_12.webp",
+                  "benefits_image": "/gallery/10.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3205,7 +3206,7 @@
                   "title_line1": "Joyful Breath",
                   "title_line2": "and Uplifted Spirits",
                   "description": "Combining unconditional laughter with yogic breathing to boost endorphins, oxygenate cells and melt away stress.",
-                  "image": "/gallery/yoga_pose_01.webp",
+                  "image": "/gallery/11.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3234,7 +3235,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "LAUGHTER YOGA",
                   "benefits_description": "Combining unconditional laughter with yogic breathing to boost endorphins, oxygenate cells and melt away stress. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_01.webp",
+                  "benefits_image": "/gallery/11.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3277,7 +3278,7 @@
                   "title_line1": "Accessible Poses",
                   "title_line2": "for All Ages",
                   "description": "Gentle seated and supported standing stretches tailored for seniors, office workers and those with limited mobility.",
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/12.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3306,7 +3307,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "CHAIR YOGA",
                   "benefits_description": "Gentle seated and supported standing stretches tailored for seniors, office workers and those with limited mobility. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_03.webp",
+                  "benefits_image": "/gallery/12.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3349,7 +3350,7 @@
                   "title_line1": "Center Strength",
                   "title_line2": "and Balanced Power",
                   "description": "Dynamic movements targeting the abdominal and pelvic floor muscles to build stability, improve posture and prevent injury.",
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/13.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3378,7 +3379,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "CORE FLOW YOGA",
                   "benefits_description": "Dynamic movements targeting the abdominal and pelvic floor muscles to build stability, improve posture and prevent injury. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_09.webp",
+                  "benefits_image": "/gallery/13.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3421,7 +3422,7 @@
                   "title_line1": "Energy Centers",
                   "title_line2": "Harmonized Flow",
                   "description": "Targeted asanas, seed mantras and visualizations to cleanse and activate the seven energy vortexes along the spine.",
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/14.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3450,7 +3451,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "CHAKRA BALANCING",
                   "benefits_description": "Targeted asanas, seed mantras and visualizations to cleanse and activate the seven energy vortexes along the spine. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_15.webp",
+                  "benefits_image": "/gallery/14.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3493,7 +3494,7 @@
                   "title_line1": "Gentle Stretches",
                   "title_line2": "for Sweet Sleep",
                   "description": "Soothing nighttime sequence designed to lower cortisol levels, release day's tension and prepare your body for deep slumber.",
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/15.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3522,7 +3523,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "EVENING WIND-DOWN",
                   "benefits_description": "Soothing nighttime sequence designed to lower cortisol levels, release day's tension and prepare your body for deep slumber. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_10.webp",
+                  "benefits_image": "/gallery/15.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3565,7 +3566,7 @@
                   "title_line1": "Vibrant Energy",
                   "title_line2": "Breath Mastery",
                   "description": "Advanced breath retention and rhythmic pranayama techniques to expand energetic capacity and enhance life force.",
-                  "image": "/class/yoga_pose_01.webp",
+                  "image": "/gallery/16.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3594,7 +3595,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "PRANA IMMERSION",
                   "benefits_description": "Advanced breath retention and rhythmic pranayama techniques to expand energetic capacity and enhance life force. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_01.webp",
+                  "benefits_image": "/gallery/16.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3637,7 +3638,7 @@
                   "title_line1": "Deep Twists",
                   "title_line2": "and Internal Cleansing",
                   "description": "Stimulate digestive fire and activate lymphatic drainage with invigorating compression poses and dynamic twists.",
-                  "image": "/class/yoga_pose_02.webp",
+                  "image": "/gallery/1.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3666,7 +3667,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "DETOX FLOW YOGA",
                   "benefits_description": "Stimulate digestive fire and activate lymphatic drainage with invigorating compression poses and dynamic twists. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_02.webp",
+                  "benefits_image": "/gallery/1.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3709,7 +3710,7 @@
                   "title_line1": "Somatic Posture",
                   "title_line2": "Body Harmony",
                   "description": "Slow, deliberate somatic movements to retrain neuromuscular patterns, release chronic holdings and align bones naturally.",
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/2.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3738,7 +3739,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "MINDFUL ALIGNMENT",
                   "benefits_description": "Slow, deliberate somatic movements to retrain neuromuscular patterns, release chronic holdings and align bones naturally. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/gallery/yoga_pose_08.webp",
+                  "benefits_image": "/gallery/2.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3781,7 +3782,7 @@
                   "title_line1": "Long Holds",
                   "title_line2": "and Fascia Release",
                   "description": "Target deep connective fascial sheaths and tendons with sustained static holds to safely unlock joint flexibility.",
-                  "image": "/class/yoga_pose_04.webp",
+                  "image": "/gallery/3.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3810,7 +3811,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "FLEXIBILITY SCULPT",
                   "benefits_description": "Target deep connective fascial sheaths and tendons with sustained static holds to safely unlock joint flexibility. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_04.webp",
+                  "benefits_image": "/gallery/3.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -3853,7 +3854,7 @@
                   "title_line1": "Transcendence",
                   "title_line2": "and Pure Stillness",
                   "description": "The pinnacle yogic experience: silent absorption into boundless awareness, stillness and unified consciousness.",
-                  "image": "/class/yoga_pose_07.webp",
+                  "image": "/gallery/4.webp",
                   "button_text": "Book a Class",
                   "button_link": "/book-a-appointment",
                   "features": [
@@ -3882,7 +3883,7 @@
                   "benefits_title_line1": "Benefits of",
                   "benefits_title_line2": "SAMADHI MEDITATION",
                   "benefits_description": "The pinnacle yogic experience: silent absorption into boundless awareness, stillness and unified consciousness. Regular practice revitalizes the entire body, clarifies mental perception and anchors long-term emotional well-being.",
-                  "benefits_image": "/class/yoga_pose_07.webp",
+                  "benefits_image": "/gallery/4.webp",
                   "benefits_list": [
                     "Improves spine alignment and joint mobility",
                     "Builds lean strength and core stability",
@@ -4125,322 +4126,322 @@
               "items": [
                 {
                   "id": 1,
-                  "image": "/gallery/yoga_pose_01.webp",
+                  "image": "/gallery/1.webp",
                   "title": "Yoga Side Stretch"
                 },
                 {
                   "id": 2,
-                  "image": "/gallery/yoga_pose_02.webp",
+                  "image": "/gallery/2.webp",
                   "title": "Namaste Meditation"
                 },
                 {
                   "id": 3,
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/3.webp",
                   "title": "Bow Pose Practice"
                 },
                 {
                   "id": 4,
-                  "image": "/gallery/yoga_pose_04.webp",
+                  "image": "/gallery/4.webp",
                   "title": "Cobra Pose Alignment"
                 },
                 {
                   "id": 5,
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/5.webp",
                   "title": "Warrior II Pose"
                 },
                 {
                   "id": 6,
-                  "image": "/gallery/yoga_pose_06.webp",
+                  "image": "/gallery/6.webp",
                   "title": "Downward-Facing Dog"
                 },
                 {
                   "id": 7,
-                  "image": "/gallery/yoga_pose_07.webp",
+                  "image": "/gallery/7.webp",
                   "title": "Group Yoga Meditation"
                 },
                 {
                   "id": 8,
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/8.webp",
                   "title": "King Pigeon Pose"
                 },
                 {
                   "id": 9,
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/9.webp",
                   "title": "Full Boat Pose"
                 },
                 {
                   "id": 10,
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/10.webp",
                   "title": "Half Lord of the Fishes"
                 },
                 {
                   "id": 11,
-                  "image": "/gallery/yoga_pose_11.webp",
+                  "image": "/gallery/11.webp",
                   "title": "Side Angle Stretch"
                 },
                 {
                   "id": 12,
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/12.webp",
                   "title": "Outdoor Lotus Meditation"
                 },
                 {
                   "id": 13,
-                  "image": "/gallery/yoga_pose_13.webp",
+                  "image": "/gallery/13.webp",
                   "title": "Wheel / Bridge Pose"
                 },
                 {
                   "id": 14,
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/14.webp",
                   "title": "Morning Vinyasa Flow"
                 },
                 {
                   "id": 15,
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/15.webp",
                   "title": "Low Lunge Side Bend"
                 },
                 {
                   "id": 16,
-                  "image": "/gallery/yoga_pose_16.webp",
+                  "image": "/gallery/16.webp",
                   "title": "Seated Side Reach"
                 },
                 {
                   "id": 17,
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/1.webp",
                   "title": "Warrior Strength"
                 },
                 {
                   "id": 18,
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/2.webp",
                   "title": "Graceful Pigeon"
                 },
                 {
                   "id": 19,
-                  "image": "/gallery/yoga_pose_02.webp",
+                  "image": "/gallery/3.webp",
                   "title": "Mindful Breath"
                 },
                 {
                   "id": 20,
-                  "image": "/gallery/yoga_pose_06.webp",
+                  "image": "/gallery/4.webp",
                   "title": "Adho Mukha Flow"
                 },
                 {
                   "id": 21,
-                  "image": "/gallery/yoga_pose_01.webp",
+                  "image": "/gallery/5.webp",
                   "title": "Side Core Activation"
                 },
                 {
                   "id": 22,
-                  "image": "/gallery/yoga_pose_07.webp",
+                  "image": "/gallery/6.webp",
                   "title": "Synchronized Flow"
                 },
                 {
                   "id": 23,
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/7.webp",
                   "title": "Dhanurasana Strength"
                 },
                 {
                   "id": 24,
-                  "image": "/gallery/yoga_pose_11.webp",
+                  "image": "/gallery/8.webp",
                   "title": "Extended Lateral Pose"
                 },
                 {
                   "id": 25,
-                  "image": "/gallery/yoga_pose_04.webp",
+                  "image": "/gallery/9.webp",
                   "title": "Bhujangasana Spine"
                 },
                 {
                   "id": 26,
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/10.webp",
                   "title": "Detoxifying Spinal Twist"
                 },
                 {
                   "id": 27,
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/11.webp",
                   "title": "Sunset Studio Class"
                 },
                 {
                   "id": 28,
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/12.webp",
                   "title": "Core Stability Boat"
                 },
                 {
                   "id": 29,
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/13.webp",
                   "title": "Garden Serenity"
                 },
                 {
                   "id": 30,
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/14.webp",
                   "title": "Deep Crescent Stretch"
                 },
                 {
                   "id": 31,
-                  "image": "/gallery/yoga_pose_13.webp",
+                  "image": "/gallery/15.webp",
                   "title": "Heart Opening Arch"
                 },
                 {
                   "id": 32,
-                  "image": "/gallery/yoga_pose_16.webp",
+                  "image": "/gallery/16.webp",
                   "title": "Gentle Seated Bend"
                 },
                 {
                   "id": 33,
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/1.webp",
                   "title": "Navasana Core Flow"
                 },
                 {
                   "id": 34,
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/2.webp",
                   "title": "Pranayama in Nature"
                 },
                 {
                   "id": 35,
-                  "image": "/gallery/yoga_pose_07.webp",
+                  "image": "/gallery/3.webp",
                   "title": "Collective Harmony"
                 },
                 {
                   "id": 36,
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/4.webp",
                   "title": "Spine Flexibility Arch"
                 },
                 {
                   "id": 37,
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/5.webp",
                   "title": "Hip Opening Lunge"
                 },
                 {
                   "id": 38,
-                  "image": "/gallery/yoga_pose_02.webp",
+                  "image": "/gallery/6.webp",
                   "title": "Padmasana Silence"
                 },
                 {
                   "id": 39,
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/7.webp",
                   "title": "Torso Flexibility Twist"
                 },
                 {
                   "id": 40,
-                  "image": "/gallery/yoga_pose_06.webp",
+                  "image": "/gallery/8.webp",
                   "title": "Downward Stretch"
                 },
                 {
                   "id": 41,
-                  "image": "/gallery/yoga_pose_13.webp",
+                  "image": "/gallery/9.webp",
                   "title": "Urdhva Dhanurasana"
                 },
                 {
                   "id": 42,
-                  "image": "/gallery/yoga_pose_01.webp",
+                  "image": "/gallery/10.webp",
                   "title": "Morning Ribcage Open"
                 },
                 {
                   "id": 43,
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/11.webp",
                   "title": "Candlelit Flow"
                 },
                 {
                   "id": 44,
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/12.webp",
                   "title": "Deep Pigeon Release"
                 },
                 {
                   "id": 45,
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/13.webp",
                   "title": "Virabhadrasana Focus"
                 },
                 {
                   "id": 46,
-                  "image": "/gallery/yoga_pose_11.webp",
+                  "image": "/gallery/14.webp",
                   "title": "Flank Energy Flow"
                 },
                 {
                   "id": 47,
-                  "image": "/gallery/yoga_pose_04.webp",
+                  "image": "/gallery/15.webp",
                   "title": "Serpent Stretch"
                 },
                 {
                   "id": 48,
-                  "image": "/gallery/yoga_pose_16.webp",
+                  "image": "/gallery/16.webp",
                   "title": "Cool-Down Lotus"
                 },
                 {
                   "id": 49,
-                  "image": "/gallery/yoga_pose_14.webp",
+                  "image": "/gallery/1.webp",
                   "title": "Vinyasa Mastery"
                 },
                 {
                   "id": 50,
-                  "image": "/gallery/yoga_pose_03.webp",
+                  "image": "/gallery/2.webp",
                   "title": "Backbend Vitality"
                 },
                 {
                   "id": 51,
-                  "image": "/gallery/yoga_pose_10.webp",
+                  "image": "/gallery/3.webp",
                   "title": "Restorative Spiral"
                 },
                 {
                   "id": 52,
-                  "image": "/gallery/yoga_pose_05.webp",
+                  "image": "/gallery/4.webp",
                   "title": "Grounded Warrior"
                 },
                 {
                   "id": 53,
-                  "image": "/gallery/yoga_pose_08.webp",
+                  "image": "/gallery/5.webp",
                   "title": "Blissful Pigeon"
                 },
                 {
                   "id": 54,
-                  "image": "/gallery/yoga_pose_01.webp",
+                  "image": "/gallery/6.webp",
                   "title": "Awakening Stretch"
                 },
                 {
                   "id": 55,
-                  "image": "/gallery/yoga_pose_12.webp",
+                  "image": "/gallery/7.webp",
                   "title": "Tranquil Garden Dhyana"
                 },
                 {
                   "id": 56,
-                  "image": "/gallery/yoga_pose_06.webp",
+                  "image": "/gallery/8.webp",
                   "title": "Hamstring Inversion"
                 },
                 {
                   "id": 57,
-                  "image": "/gallery/yoga_pose_15.webp",
+                  "image": "/gallery/9.webp",
                   "title": "Sacred Space Lunge"
                 },
                 {
                   "id": 58,
-                  "image": "/gallery/yoga_pose_02.webp",
+                  "image": "/gallery/10.webp",
                   "title": "Centering Prayer"
                 },
                 {
                   "id": 59,
-                  "image": "/gallery/yoga_pose_11.webp",
+                  "image": "/gallery/11.webp",
                   "title": "Warrior Side Reaching"
                 },
                 {
                   "id": 60,
-                  "image": "/gallery/yoga_pose_07.webp",
+                  "image": "/gallery/12.webp",
                   "title": "Unified Studio Meditation"
                 },
                 {
                   "id": 61,
-                  "image": "/gallery/yoga_pose_04.webp",
+                  "image": "/gallery/13.webp",
                   "title": "Chest Opening Cobra"
                 },
                 {
                   "id": 62,
-                  "image": "/gallery/yoga_pose_09.webp",
+                  "image": "/gallery/14.webp",
                   "title": "Core Balance Boat"
                 },
                 {
                   "id": 63,
-                  "image": "/gallery/yoga_pose_13.webp",
+                  "image": "/gallery/15.webp",
                   "title": "Back Arch Strength"
                 },
                 {
                   "id": 64,
-                  "image": "/gallery/yoga_pose_16.webp",
+                  "image": "/gallery/16.webp",
                   "title": "Final Relaxation"
                 }
               ],
