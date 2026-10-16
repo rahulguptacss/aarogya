@@ -62,17 +62,21 @@ export default function Header({ data }: HeaderProps) {
         </div>
 
         {/* Mobile Header Buttons */}
-        <div className="lg:hidden flex items-center gap-3">
-          <Link href={data.button_link} className="flex items-center gap-1.5 bg-[#c4a261] hover:bg-[#b09054] text-white px-4 py-2 rounded-full transition-colors text-[13px] font-medium">
-            <Calendar className="w-3.5 h-3.5" />
+        <div className="lg:hidden flex items-center gap-2 sm:gap-3">
+          <Link 
+            href={data.button_link} 
+            className="flex items-center gap-1 sm:gap-1.5 bg-[#c4a261] hover:bg-[#b09054] text-white px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-full transition-all text-[11px] sm:text-xs font-medium whitespace-nowrap shadow-sm active:scale-95"
+          >
+            <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5 shrink-0" />
             <span>{data.button_text}</span>
-            <ArrowRight className="w-3.5 h-3.5" />
+            <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 shrink-0" />
           </Link>
           <button 
-            className="bg-[#c4a261] text-white p-2 rounded-lg hover:bg-[#b09054] transition-all hover:scale-105 active:scale-95 flex items-center justify-center"
+            aria-label="Toggle Navigation Menu"
+            className="bg-[#c4a261] text-white p-1.5 sm:p-2 rounded-lg hover:bg-[#b09054] transition-all hover:scale-105 active:scale-95 flex items-center justify-center shrink-0"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            {isMobileMenuOpen ? <X className="w-5 h-5" strokeWidth={2.5} /> : <Menu className="w-5 h-5" strokeWidth={2.5} />}
+            {isMobileMenuOpen ? <X className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2.5} /> : <Menu className="w-4 h-4 sm:w-5 sm:h-5" strokeWidth={2.5} />}
           </button>
         </div>
       </div>

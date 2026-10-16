@@ -207,14 +207,6 @@
                 {
                   "key": "WhyChooseUsSection",
                   "component": "WhyChooseUs"
-                },
-                {
-                  "key": "StatsSection",
-                  "component": "Stats"
-                },
-                {
-                  "key": "TeamSection",
-                  "component": "Team"
                 }
               ]
             },

@@ -4,8 +4,6 @@ import Header from '../../components/sections/Header';
 import Breadcrumb from '../../components/sections/Breadcrumb';
 import About from '../../components/sections/About';
 import WhyChooseUs from '../../components/sections/WhyChooseUs';
-import Stats from '../../components/sections/Stats';
-import Team from '../../components/sections/Team';
 import Footer from '../../components/sections/Footer';
 import BackToTop from '../../components/BackToTop';
 
@@ -21,10 +19,6 @@ const componentMap: Record<string, React.ComponentType<any>> = {
   AboutSection: About,
   WhyChooseUs,
   WhyChooseUsSection: WhyChooseUs,
-  Stats,
-  StatsSection: Stats,
-  Team,
-  TeamSection: Team,
 };
 
 export default function AboutPage() {
@@ -43,10 +37,6 @@ export default function AboutPage() {
     AboutSection: sections.about,
     WhyChooseUs: (sections as any).why_choose_us,
     WhyChooseUsSection: (sections as any).why_choose_us,
-    Stats: sections.stats,
-    StatsSection: sections.stats,
-    Team: sections.team,
-    TeamSection: sections.team,
   };
 
   return (
@@ -57,14 +47,12 @@ export default function AboutPage() {
           const Component = componentMap[comp.component] || componentMap[comp.key];
           if (!Component) return null;
           const sectionData = sectionDataMap[comp.key] ?? sectionDataMap[comp.component];
-          const isTeam = comp.key === 'Team' || comp.component === 'Team' || comp.key === 'TeamSection' || comp.component === 'TeamSection';
           const isAbout = comp.key === 'About' || comp.component === 'About' || comp.key === 'AboutSection' || comp.component === 'AboutSection';
           return (
             <Component 
               key={index} 
               data={sectionData} 
               {...(comp.component === 'Breadcrumb' ? sectionData : {})} 
-              {...(isTeam ? { limit: 4, showButton: true } : {})}
               {...(isAbout ? { showButton: false } : {})}
             />
           );
